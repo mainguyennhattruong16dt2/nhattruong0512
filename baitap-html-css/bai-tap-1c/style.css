@@ -1,0 +1,166 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.image-extra {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+     height: 130px; 
+    /* width: 130px; */
+}
+
+.container{
+	display: flex;
+	max-width: 460px;
+	margin: 0 auto;
+	background-color: red;
+	flex-wrap: wrap;
+}
+
+.container div {
+}
+
+.container div{
+	/* width: 100%; */
+	/* height: 30px; */
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header{
+	background-color: #0E182A;
+	width: 25%;
+	height: 35px;
+	/* align-items: center; */
+}
+.menu{
+	background-color: #DD4D53;
+	width: 75%;
+}
+
+.hero{
+	background-color: #5886C1;
+	width: 100%;
+	height: 190px;
+}
+
+.main{
+	background-color: #273449;
+	width: 50%;
+	height: 130px;
+}
+
+.white{
+	background-color: #fff;
+	width: 25%;
+	height: 130px;
+}
+
+.image{
+	background-color: #C6E1E2;
+	height: 50%;
+	/* display: block !important; */
+	width: 100%;
+}
+
+.extra{
+	background-color: #5BA384;
+	height: 50%;
+	width: 100%;
+}
+
+.banner{
+	background-color: #F8D279;
+	width: 100%;
+	height: 65px;
+}
+
+.wrap{
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px){
+	.container{
+		max-width: 290px;
+	}
+	.header{
+		width: 100%;
+	}
+	.menu {
+    background-color: #DD4D53;
+    width: 25%;
+    order: 3;
+	}
+	.wrap {
+    width: 75%;
+    flex-wrap: wrap;
+    order: 4;
+	}
+	.main {
+    width: 100%;
+	}
+	.white{
+		display: none !important;
+	}
+	.image-extra {
+    width: 100%;
+    flex-direction: row;
+    order: 3
+	}
+	.image{
+		width: 100%;
+		height: 100%;
+	}
+	.extra{
+		width: 100%;
+		height: 100%;
+	}
+	.banner{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		max-width: 115px;
+	}
+	.wrap{
+		width: 100%;
+	}
+	.menu{
+		width: 100%;
+		height: 35px;
+	}
+	.hero{
+		order: 3;
+		height: 85px;
+	}
+	.image-extra{
+		flex-wrap: wrap;
+	}
+	.image{
+		order: 2;
+	}
+	.main{
+		height: 60px;
+	}
+	.banner{
+		height: 70px;
+	}
+	.image{
+		height: 70px;
+	}
+	.extra{
+		height: 70px;
+	}
+}
+
+
+
+
+

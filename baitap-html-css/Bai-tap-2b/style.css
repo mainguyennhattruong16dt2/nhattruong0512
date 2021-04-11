@@ -1,0 +1,204 @@
+.container{
+	width:900px;
+	height: 600px;
+	margin:auto;
+	background:#2125297a;
+}
+.container1{
+	background:#DAE9EF;
+	height:400px;
+	margin-top:30px;
+	padding-top:30px;
+}
+.row{
+	width:100%;
+	margin:10px 10px;
+}
+.col-md-4 h2{
+	display:flex;
+	justify-content: center;
+}
+.main1-conten img{
+	display:block;
+	width:200px;
+	height:auto;
+	float:left;
+	
+}
+.main1-conten{
+	
+	height:200px;
+}
+.main1-conten a{
+	text-decoration: none;
+	color:black;
+}
+.main2-conten img{
+	display:block;
+	width:200px;
+	height:auto;
+	float:left;
+	
+}
+.main2-conten{
+	
+	height:200px;
+}
+.main2-conten a{
+	text-decoration: none;
+	color:black;
+}
+.main3-conten img{
+	display:block;
+	width:200px;
+	height:auto;
+	float:left;
+	
+}
+.main3-conten{
+	
+	height:200px;
+}
+.main3-conten a{
+	text-decoration: none;
+	color:black;
+}
+.main1-conten2 img{
+	width:400px;
+	height: auto;
+}
+.main1-conten3 img{
+	width:100px;
+	height: auto;
+	display:block;
+	float:left;
+	margin-bottom: 10px;
+}
+.main1-conten3{
+	height:150px;
+}
+.main2-conten3{
+	height:140px;
+}
+.main1-conten3 a{
+	text-decoration: none;
+	color:black;
+}
+.main2-conten3 img{
+	width:100px;
+	height: auto;
+	display:block;
+	float:left;
+}
+.main2-conten3 a{
+	text-decoration: none;
+	color:black;
+}
+.main3-conten3 img{
+	width:100px;
+	height: auto;
+	display:block;
+	float:left;
+
+}
+.main3-conten3 a{
+	text-decoration: none;
+	color:black;
+}
+.container1 h2{
+	display:flex;
+	justify-content: flex-end;
+	margin-right: 30px;
+}
+.col-md-6 .main1{
+	width:100%;
+	height: 100px;
+	
+}
+.row1{
+	width:100%;
+	height:120px;
+	
+}
+.main1-1{
+	height: 100%;
+	width:200px;
+	background:#DE5646;
+	float:left;
+}
+.main1-1 h2{
+	margin-bottom:-15px;
+	margin-right:60px;
+	color:#fff;
+	
+}
+.main1-1 .thunhat{
+	margin-right:70px;
+	
+	
+}
+.main1-2{
+	height: 100%;
+	text-align: center;
+	background:#fff;
+}
+.main1-3{
+	height: 100%;
+	width:200px;
+	background:#DE5646;
+	float:left;
+}
+.main1-3 h2{
+	margin-bottom:-15px;
+	margin-right:60px;
+	color:#fff;
+	
+}
+.main1-5{
+	height: 100%;
+	width:200px;
+	background:#409063;
+	float:left;
+}
+.main1-5 h2{
+	margin-bottom:-15px;
+	margin-right:60px;
+	color:#fff;
+	
+}
+.main1-7{
+	height: 100%;
+	width:200px;
+	background:#5696B0;
+	float:left;
+}
+.main1-7 h2{
+	margin-bottom:-15px;
+	margin-right:60px;
+	color:#fff;
+	
+}
+
+.main1-4{
+	height:100%;
+	background:#fff;
+	
+}
+.main1-6{
+	background:#fff;
+	height: 100%;
+}
+.main1-8{
+	background:#fff;
+	height: 100%;	
+}
+.main1-5 .thunhat{
+	margin-right:80px;
+	
+	
+}
+.main1-7 .thunhat{
+	margin-right:70px;
+	
+	
+}
